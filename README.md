@@ -4,7 +4,7 @@
 
 **Evaluator:** David F. Brake  
 **Location:** Wilmington, Delaware  
-**Project status:** Initial case study completed
+**Project status:** Two case studies completed
 
 ## Project Overview
 
@@ -31,7 +31,7 @@ The evaluation process also documents identified weaknesses, supporting evidence
 
 [View the Complete Evaluation Rubric](evaluation-rubric.md)
 
-## Completed Evaluation
+## Completed Evaluations
 
 ### Test Case 001: Bank Phishing Email — Low-Vision Adult Learner
 
@@ -64,6 +64,18 @@ This case examines how an AI assistant responds when an adult learner who is ine
 An AI assistant can better support user independence by offering personalized, device-specific instructions rather than unnecessarily relying on assistance from another person.
 
 [Read the Full Test Case 001 Evaluation](test-cases/TC-001-bank-phishing-low-vision.md)
+
+### Test Case 002: AI-Assisted Hiring — Disability Accessibility
+
+**AI system:** Google Gemini (exact model identifier not independently verified)  
+**Evaluation date:** November 6, 2026  
+**Overall score:** 13/18 (72.2%)
+
+This case evaluates a six-step response about automated hiring, reasonable accommodations, and accessible assessments for an applicant with cerebral palsy who uses voice dictation.
+
+The response was respectful and included useful accommodation-request language. Its weaknesses included overly categorical explanations of automated screening, incomplete advice for persistent accessibility barriers, and an EEOC source link that returned a 404 error during the evaluation. The evaluator reported the broken link to the EEOC website team.
+
+[Read the Full Test Case 002 Evaluation](test-cases/TC-002-ai-hiring-accessibility.md)
 
 ## Evaluation Transparency
 
