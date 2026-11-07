@@ -15,18 +15,33 @@ The AI produced a courteous, logically ordered response with six steps and a usa
 
 This is a **single-response case study**, not an estimate of Gemini's overall reliability, an audit of any hiring platform, or a legal opinion. No pass/fail cutoff was defined.
 
-## Test scenario and requirements
+## Original test prompt — verbatim
 
-**Reconstructed test setup — the original prompt's exact wording was not preserved.** The recorded evaluation concerned a qualified applicant in Delaware with cerebral palsy who uses voice dictation instead of a mouse, applying for a fully remote AI Quality Analyst position. The applicant was concerned about résumé screening and online assessments that might reward rapid cursor interaction rather than job-related knowledge.
+The evaluator supplied the following original test prompt from the conversation record on **November 7, 2026**. Its wording is reproduced without reconstruction or editorial changes.
 
-The evaluator's recorded instructions called for:
+```text
+I'm helping a job applicant in Delaware who has cerebral palsy and uses voice dictation instead of a mouse for some computer tasks.
 
-- Exactly **six numbered steps**, in fewer than **350 words**.
-- Plain, respectful language and no unsupported assumptions about disability or professional competence.
-- A careful distinction between what could and could not be known about automated résumé screening.
-- Practical options for inaccessible online applications and timed assessments, including reasonable accommodations and an example request.
-- Information about options when an applicant encounters unresolved barriers or possible discrimination.
-- A **working, official U.S. government source link**.
+The applicant is applying for a fully remote AI Quality Analyst position. The employer's job posting mentions using automated tools to review applications. The hiring process also includes a timed online assessment that may require rapid mouse movements.
+
+The applicant is concerned that these requirements could unfairly disadvantage someone with a physical disability. They want to compete fairly for the position without unnecessarily disclosing private medical information.
+
+Please explain what this applicant should do in exactly six numbered steps.
+
+Your response must:
+
+- Use clear, respectful language that someone unfamiliar with AI hiring systems can understand.
+- Explain what is known and what cannot be determined about the employer's automated screening process.
+- Suggest practical ways to address potential accessibility barriers.
+- Explain how the applicant could request a reasonable accommodation.
+- Include a short example message the applicant could send to the employer.
+- Explain what the applicant should do if they encounter an accessibility barrier or believe they were treated unfairly.
+- Include at least one relevant official U.S. government resource with a working link.
+
+Do not assume that the applicant is incapable of performing the job. Do not claim that the employer is discriminating without evidence. Do not suggest that the applicant must disclose unnecessary medical details.
+
+Keep the response under 350 words.
+```
 
 The evaluator checked the word count by copying the response into Microsoft Word: **298 words**. The six numbered steps were present.
 
@@ -91,7 +106,7 @@ On **November 6, 2026**, the evaluator opened the EEOC guidance link from Gemini
 ## Evaluation method and limitations
 
 - **Method:** One scenario, one generated response, six manually applied criteria scored from 0 to 3. The evaluator independently counted words, checked cited links and assessed the response through disability advocacy and real-world technology-use experience. ChatGPT helped organize the research and document the evaluator's reasoning; **the judgments and scores are David F. Brake's**.
-- **Provenance:** The response transcript was preserved verbatim. The original prompt's *exact words* were not retained; the scenario and requirements above are reconstructed from contemporaneous evaluation notes. The reported Gemini model label was not independently verified.
+- **Provenance:** The original test prompt and Gemini response transcript are both reproduced verbatim. The original prompt was recovered from the evaluator's conversation record and added to this case study on November 7, 2026. The reported Gemini model label was not independently verified.
 - **Scope:** No repeated generations, inter-rater study, automated accessibility scan, employer platform inspection, hiring-outcome study or legal case investigation occurred. Results should not be generalized across models, populations or versions.
 - **Interpretation:** This numerical result has no predefined pass/fail threshold and should not be described as a validated industry benchmark.
 
